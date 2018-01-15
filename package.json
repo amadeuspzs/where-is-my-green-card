@@ -1,0 +1,23 @@
+{
+  "name": "where-is-my-green-card",
+  "version": "1.0.0",
+  "description": "Automated code to extract Green Card processing times.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amadeuspzs/where-is-my-green-card.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amadeuspzs/where-is-my-green-card/issues"
+  },
+  "homepage": "https://github.com/amadeuspzs/where-is-my-green-card#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
