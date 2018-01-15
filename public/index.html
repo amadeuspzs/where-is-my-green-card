@@ -9,21 +9,36 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.36/js/uikit-icons.min.js"></script>
     </head>
     <body>
-      <h1>Where is my Green Card?</h1>
-      
-      <form>
-          <select class="uk-select" name="serviceCenter">
-              <option value="991">California</option>
-              <option value="992">Nebraska</option>
-              <option value="993">Texas</option>
-              <option value="990">Vermont</option>
-              <option value="1031">Potomac</option>
-          </select>
-          <select class="uk-select" name="form">
-              <option>I-140</option>
-              <option>I-485</option>
-          </select>
-          <input class="uk-input" type="date" name="processingDate">
-      </form>
+      <div class="uk-section">
+        <div class="uk-container">
+          <h1 class="uk-heading-primary">Where is my Green Card?</h1>
+          <form class="uk-grid-large uk-text-center" uk-grid>
+              <div class="uk-width-1-4">
+                <label class="uk-form-label">Service Center</label>
+                <select class="uk-select" name="serviceCenter">
+                    <option value="991">California</option>
+                    <option value="992">Nebraska</option>
+                    <option value="993">Texas</option>
+                    <option value="990">Vermont</option>
+                    <option value="1031">Potomac</option>
+                </select>
+              </div>
+              <div class="uk-width-1-4">
+                <label class="uk-form-label">Form</label>
+                <select class="uk-select" name="form">
+                    <option>I-140</option>
+                    <option>I-485</option>
+                </select>
+              </div>
+              <div class="uk-width-1-4">
+                <label class="uk-form-label">Processing Date</label>
+                <input class="uk-input" type="date" name="processingDate">
+              </div>
+              <div class="uk-width-1-4">
+                <button class="uk-input">Where is it?</button>
+              </div>
+            </form>
+          </div>
+        </div>
     </body>
 </html>
